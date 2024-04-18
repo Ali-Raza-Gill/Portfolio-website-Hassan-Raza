@@ -11,9 +11,8 @@
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0.3/dist/tailwind.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/material-ui/4.12.4/index.js"
-        integrity="sha512-wEnX3bNd/CdyrOFR0KIGlHihK/w9x3/It8Vc18aymEF/F/f1q0Mq8T+GSxF1wYUACLEGECapuIYQdQlKY1LBJw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <title>Hassan Raza</title>
 </head>
 
@@ -52,7 +51,8 @@
 
                 </h1>
 
-                <a href="#" class="button">Contact</a>
+                <a href="https://www.upwork.com/freelancers/~0101a893c5fcab40f5" target="_blank" class="button">Hire
+                    Me</a>
             </div>
 
             <div class="home__social">
@@ -114,9 +114,8 @@
 
             <div class="skills__container bd-grid">
                 <div>
-                    <h2 class="skills__subtitle">Profesional Skills</h2>
-                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id
-                        vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <div class="skills__subtitle font-bold ml-5 mb-5">Profesional Skills</div>
+
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class='bx bx-edit-alt skills__icon'></i>
@@ -301,19 +300,156 @@
 
             <!-- strategy section code end -->
 
-            <!--===== CONTACT =====-->
-            <section class="contact section mt-36" id="contact">
-                <h2 class="section-title">Contact</h2>
+            <div class="container mx-auto px-4 pt-56">
+                <div class="flex  flex-col items-center my-14">
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
+                    <div class=" text-3xl"
+                        style="color: #3e6ff4; border-bottom: 3px solid #3e6ff4; padding-bottom:10px;">Testimonials
+                    </div>
                 </div>
-            </section>
+                <!-- Swiper Carousel -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Testimonial slides -->
+                        <div class="swiper-slide">
+                            <figure class="max-w-screen-md mx-auto text-center">
+                                <blockquote>
+                                    <p class="text-lg italic font-medium text-gray-900">"Hassan is fantastic to
+                                        collaborate with. His communication is excellent, and he's really open to any
+                                        changes or ideas. The content he provides is top-notch, always going above and
+                                        beyond. I highly recommend!"</p>
+                                </blockquote>
+                                <figcaption class="flex items-center justify-center mt-6 space-x-3">
+
+                                    <div>
+                                        <cite class="block font-semibold text-gray-900">Maria Rodriguez</cite>
+                                        <span class="block text-sm text-gray-500">Direct Client</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- Add more slides as needed -->
+                        <div class="swiper-slide">
+                            <figure class="max-w-screen-md mx-auto text-center">
+                                <blockquote>
+                                    <p class="text-lg italic font-medium text-gray-900">""Hassan is a great content
+                                        writer for the technology sector. would highly recommend his work."</p>
+                                </blockquote>
+                                <figcaption class="flex items-center justify-center mt-6 space-x-3">
+
+                                    <div class="">
+                                        <cite class="block font-semibold text-gray-900">Harlie Jensz</cite>
+                                        <span class="block text-sm text-gray-500">Upwork Client</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- Add more slides as needed -->
+                        <div class="swiper-slide">
+                            <figure class="max-w-screen-md mx-auto text-center">
+                                <blockquote>
+                                    <p class="text-lg italic font-medium text-gray-900">" "Hassan's travel writing makes
+                                        you feel like you're there! clear, timely content that inspires wanderlust.
+                                        Highly recommend! "</p>
+                                </blockquote>
+                                <figcaption class="flex items-center justify-center mt-6 space-x-3">
+
+                                    <div>
+                                        <cite class="block font-semibold text-gray-900">Justin Petrie</cite>
+                                        <span class="block text-sm text-gray-500">Upwork Client</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- Add more slides as needed -->
+                        <div class="swiper-slide">
+                            <figure class="max-w-screen-md mx-auto text-center">
+                                <blockquote>
+                                    <p class="text-lg italic font-medium text-gray-900">"My website was down and there
+                                        were no conversions. Hassan wrote great, valuable and audience-focused content
+                                        that impressed me. Highly recommended."</p>
+                                </blockquote>
+                                <figcaption class="flex items-center justify-center mt-6 space-x-3">
+
+                                    <div>
+                                        <cite class="block font-semibold text-gray-900"> Emily Garcia</cite>
+                                        <span class="block text-sm text-gray-500">LinkedIn Client</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--===== CONTACT =====-->
+
+            <div class="container mx-auto px-4 py-10 mt-14" id="contact">
+                <div class="flex  flex-col items-center my-14">
+
+                    <div class=" text-3xl" id="processs"
+                        style="color: #3e6ff4; border-bottom: 3px solid #3e6ff4; padding-bottom:10px;">Contact Me</div>
+                </div>
+                <div class="flex flex-col md:flex-row justify-center md:justify-evenly ">
+                    <div class="flex shadow-2xl">
+                        <div class=" p-12 rounded-lg shadow-md width-full">
+
+                            <form class="flex flex-col space-y-4 ">
+                                <div class="flex flex-col">
+                                    <label for="name" class="text-gray-700 mb-2">Name</label>
+                                    <input id="name" type="text"
+                                        class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                                        required />
+                                </div>
+                                <div class="flex flex-col">
+                                    <label for="email" class="text-gray-700 mb-2">Email</label>
+                                    <input id="email" type="email"
+                                        class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                                        required />
+                                </div>
+
+                                <div class="flex flex-col">
+                                    <label for="message" class="text-gray-700 mb-2">Message</label>
+                                    <textarea id="message" rows="4"
+                                        class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                                        required></textarea>
+                                </div>
+                                <button type="submit"
+                                    class="px-4 py-2 rounded-md bg-blue-400 text-white font-bold hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">Send
+                                    Message</button>
+                            </form>
+                        </div>
+                        <div class="bg-black bg-opacity-50 text-white p-6 rounded-lg flex items-center">
+                            <div class="bg-white p-8 rounded-lg shadow-md mt-3">
+
+                                <ul class="text-gray-700 list-none space-y-2 contact-info">
+                                    <li class="flex items-center">
+                                        <a href=""><i class="fa fa-map-marker mr-2 "></i></a>
+                                        <span class="font-bold  mr-2">Address:</span> <span class="">
+                                            P-938 Faisalabad, Pakistan
+                                        </span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <a href=""><i class="fa fa-phone mr-2"></i></a>
+                                        <span class="font-bold my-5">Phone:</span> <span class="ml-2">+92 308
+                                            1280265</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <a href=""><i class="fa fa-envelope mr-2"></i></a>
+                                        <div>
+                                            <span class="font-bold my-5">Email:</span>
+                                            <span class="ml-2">
+                                                realhassanraza@gmail.com </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
     </main>
 
     <!--===== FOOTER =====-->
@@ -335,6 +471,23 @@
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
     <script src='path/to/AutoTyping.min.js'></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/material-ui/4.12.4/index.js"
+        integrity="sha512-wEnX3bNd/CdyrOFR0KIGlHihK/w9x3/It8Vc18aymEF/F/f1q0Mq8T+GSxF1wYUACLEGECapuIYQdQlKY1LBJw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 
 </html>
